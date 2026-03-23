@@ -12,8 +12,8 @@
 ### NetID - bqu3tr
 ### DOI - [url](url)
 ### Press Release
-[**A Machine Learning Approach to Scoring Online Transaction Risk**](url)
-### Data - [link to data](https://myuva-my.sharepoint.com/:f:/g/personal/bqu3tr_virginia_edu/IgBAbNXHsneGQokG4ZUMr-LjATbpy9pAfvE82uTdzAjVNNg?e=uOZZ61)
+[**A Machine Learning Approach to Scoring Online Transaction Risk**](https://github.com/PatrickHo718/DS-4320-Project-1/blob/main/press-release.md)
+### Data - [link to data](https://myuva-my.sharepoint.com/:f:/g/personal/bqu3tr_virginia_edu/IgBAbNXHsneGQokG4ZUMr-LjATbpy9pAfvE82uTdzAjVNNg?e=WvtVeb)
 ### Pipeline - [analysis code](url)
 ### License - [MIT](LICENSE)
 
@@ -32,7 +32,7 @@ The general problem of credit card fraud detection was refined to focus specific
 ### Motivation
 Online transaction fraud costs financial institutions billions of dollars annually. The burden of manually reviewing suspicious activity falls heavily on fraud analysts, which it can be very monotonous work. A risk scoring model that ranks transactions by their probability of being fraudulent allows analysts to focus their time on the highest-risk cases first, improving both efficiency and fraud catch rates.
 ### Press Release Headline and Link
-[**A Machine Learning Approach to Scoring Online Transaction Risk**](url)
+[**A Machine Learning Approach to Scoring Online Transaction Risk**](https://github.com/PatrickHo718/DS-4320-Project-1/blob/main/press-release.md)
 
 <br>
 
