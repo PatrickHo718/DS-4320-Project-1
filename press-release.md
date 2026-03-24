@@ -1,7 +1,7 @@
 # A Machine Learning Approach to Scoring Online Transaction Risk
 
 ## Hook
-Every second, thousands of online transactions are processed across global payment networks. Hidden among them, fraudulent activity that costs financial institutions billions of dollars annually.
+As a bank fraud analyst, you are the line of defense against financial crime. Every day you sift through thousands of flagged transactions, while fraudsters continuously adapt their tactics to evade detection. Miss a fraudulent transaction and the bank absorbs the loss. Flag too many legitimate ones and you frustrate customers and erode trust. There has to be a smarter way to prioritize your workload.
 
 ## Problem Statement
 Online transaction fraud has become one of the most pressing challenges facing  banking. Traditional rule-based fraud detection systems are increasingly inadequate in the face of sophisticated and evolving fraud tactics. These systems generate excessive false positives, flagging legitimate transactions as fraudulent, while missing new fraud patterns entirely. Bank fraud analysts are left reading through enormous volumes of flagged transactions with limited tools to prioritize their efforts, reducing efficiency and increasing the window of exposure to financial loss.
