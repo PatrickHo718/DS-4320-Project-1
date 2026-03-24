@@ -122,10 +122,10 @@ Class imbalance is addressed directly through SMOTE (Synthetic Minority Oversamp
 
 | Table | Description | Link |
 |-------|-------------|------|
-| `transaction.parquet` | Core transaction records including TransactionID, amount, timestamp, product category, fraud label, and anonymized V features | [transaction.csv](https://myuva-my.sharepoint.com/:u:/g/personal/bqu3tr_virginia_edu/IQA0m477oIf-RKPajvdNqdR5AXpsLX6vtr8NlrCK4-5UzLE?e=PFNRuB) |
-| `cards.parquet` | Card and billing address features associated with each transaction | [cards.csv](https://myuva-my.sharepoint.com/:u:/g/personal/bqu3tr_virginia_edu/IQC7ytwes3e9Q4THqdTdyLl3ASwh6O6OHBHvzi4SDoc7g1k?e=ZjszEC) |
-| `email.parquet` | Purchaser and recipient email domains and match status features (M1–M9) | [email.csv](https://myuva-my.sharepoint.com/:u:/g/personal/bqu3tr_virginia_edu/IQCbzr0lDS4yTJTAEQxTZaFqAWBKuDSTrK4H6siEgs5Fw_8?e=zL109E) |
-| `identity.parquet` | Device and network identity features for a subset of transactions | [identity.csv](https://myuva-my.sharepoint.com/:u:/g/personal/bqu3tr_virginia_edu/IQCtneexJFggSr_cdos1vysfAca77zSoaBFJqXNQ5-0xcWU?e=9wkptq) |
+| `transaction.parquet` | Core transaction records including TransactionID, amount, timestamp, product category, fraud label, and anonymized V features | [transaction.parquet](https://myuva-my.sharepoint.com/:u:/g/personal/bqu3tr_virginia_edu/IQA0m477oIf-RKPajvdNqdR5AXpsLX6vtr8NlrCK4-5UzLE?e=PFNRuB) |
+| `cards.parquet` | Card and billing address features associated with each transaction | [cards.parquet](https://myuva-my.sharepoint.com/:u:/g/personal/bqu3tr_virginia_edu/IQC7ytwes3e9Q4THqdTdyLl3ASwh6O6OHBHvzi4SDoc7g1k?e=ZjszEC) |
+| `email.parquet` | Purchaser and recipient email domains and match status features (M1–M9) | [email.parquet](https://myuva-my.sharepoint.com/:u:/g/personal/bqu3tr_virginia_edu/IQCbzr0lDS4yTJTAEQxTZaFqAWBKuDSTrK4H6siEgs5Fw_8?e=zL109E) |
+| `identity.parquet` | Device and network identity features for a subset of transactions | [identity.parquet](https://myuva-my.sharepoint.com/:u:/g/personal/bqu3tr_virginia_edu/IQCtneexJFggSr_cdos1vysfAca77zSoaBFJqXNQ5-0xcWU?e=9wkptq) |
 
 ### Data Dictionary
 
