@@ -86,7 +86,7 @@ The two file types are linked by TransactionID as the primary key, with the iden
 ### Code
 | File | Description | Link |
 |------|-------------|------|
-| `main.py` | Loads all csv files, splits the transaction data into the `transactions`, `cards`, and `email` relational tables, and saves the identity data as the `identity` table | [main.py](https://drive.google.com/file/d/1bn4N_3oNwKEi8UqOmZEiz7M3mKLSfUMk/view?usp=drive_link) |
+| `main.py` | Loads all csv files, splits the transaction data into the `transactions`, `cards`, and `email` relational tables, and saves the identity data as the `identity` table and converts them to parquet files | [main.py](https://drive.google.com/file/d/1kKtOChbpyJDciQTRS4WRm-UyCay-h__3/view?usp=sharing) |
 
 ### Bias Identification
 
@@ -122,10 +122,10 @@ Class imbalance is addressed directly through SMOTE (Synthetic Minority Oversamp
 
 | Table | Description | Link |
 |-------|-------------|------|
-| `transaction.csv` | Core transaction records including TransactionID, amount, timestamp, product category, fraud label, and anonymized V features | [transaction.csv](https://drive.google.com/file/d/1sMk_K2TJZ64fwVkPTjKM0OqMjTUdP-oh/view?usp=drive_link) |
-| `cards.csv` | Card and billing address features associated with each transaction | [cards.csv](https://drive.google.com/file/d/1eXkBC5SjLjX6wKRssuzyvrgb1rByoB4E/view?usp=drive_link) |
-| `email.csv` | Purchaser and recipient email domains and match status features (M1–M9) | [email.csv](https://drive.google.com/file/d/1QSH0CyCN0z18GILAMMM3hTmkAp4B3OfB/view?usp=drive_link) |
-| `identity.csv` | Device and network identity features for a subset of transactions | [identity.csv](https://drive.google.com/file/d/1zT-mdrKUJXR5lWv6GmBsdFDrSMmRVlft/view?usp=drive_link) |
+| `transaction.parquet` | Core transaction records including TransactionID, amount, timestamp, product category, fraud label, and anonymized V features | [transaction.csv](https://myuva-my.sharepoint.com/:u:/g/personal/bqu3tr_virginia_edu/IQA0m477oIf-RKPajvdNqdR5AXpsLX6vtr8NlrCK4-5UzLE?e=PFNRuB) |
+| `cards.parquet` | Card and billing address features associated with each transaction | [cards.csv](https://myuva-my.sharepoint.com/:u:/g/personal/bqu3tr_virginia_edu/IQC7ytwes3e9Q4THqdTdyLl3ASwh6O6OHBHvzi4SDoc7g1k?e=ZjszEC) |
+| `email.parquet` | Purchaser and recipient email domains and match status features (M1–M9) | [email.csv](https://myuva-my.sharepoint.com/:u:/g/personal/bqu3tr_virginia_edu/IQCbzr0lDS4yTJTAEQxTZaFqAWBKuDSTrK4H6siEgs5Fw_8?e=zL109E) |
+| `identity.parquet` | Device and network identity features for a subset of transactions | [identity.csv](https://myuva-my.sharepoint.com/:u:/g/personal/bqu3tr_virginia_edu/IQCtneexJFggSr_cdos1vysfAca77zSoaBFJqXNQ5-0xcWU?e=9wkptq) |
 
 ### Data Dictionary
 
