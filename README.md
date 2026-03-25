@@ -16,7 +16,7 @@ This README now documents a Credit Card Fraud Project for DS-4320 that includes 
 ### Press Release
 [**A Machine Learning Approach to Scoring Online Transaction Risk**](https://github.com/PatrickHo718/DS-4320-Project-1/blob/main/press-release.md)
 ### Data - [link to data](https://myuva-my.sharepoint.com/:f:/g/personal/bqu3tr_virginia_edu/IgBAbNXHsneGQokG4ZUMr-LjATbpy9pAfvE82uTdzAjVNNg?e=WvtVeb)
-### Pipeline - [analysis code](url)
+### Pipeline - [analysis code](https://github.com/PatrickHo718/DS-4320-Project-1/blob/main/pipeline.ipynb)
 ### License - [MIT](LICENSE)
 
 
