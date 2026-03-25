@@ -1,0 +1,117 @@
+2026-03-24 13:54:24,573 - INFO - Pipeline started
+2026-03-24 13:54:32,982 - INFO - Downloading transaction from OneDrive...
+2026-03-24 13:54:52,773 - INFO - transaction loaded: (1097231, 344)
+2026-03-24 13:54:52,793 - INFO - Downloading cards from OneDrive...
+2026-03-24 13:54:55,389 - INFO - cards loaded: (1097231, 9)
+2026-03-24 13:54:55,393 - INFO - Downloading email from OneDrive...
+2026-03-24 13:54:57,636 - INFO - email loaded: (1097231, 12)
+2026-03-24 13:54:57,638 - INFO - Downloading identity from OneDrive...
+2026-03-24 13:54:59,945 - INFO - identity loaded: (286140, 79)
+2026-03-24 15:08:24,887 - INFO - Pipeline started
+2026-03-24 15:08:24,896 - INFO - Downloading transaction from OneDrive...
+2026-03-24 15:08:35,226 - INFO - transaction loaded: (1097231, 344)
+2026-03-24 15:08:35,232 - INFO - Downloading cards from OneDrive...
+2026-03-24 15:08:36,793 - INFO - cards loaded: (1097231, 9)
+2026-03-24 15:08:36,794 - INFO - Downloading email from OneDrive...
+2026-03-24 15:08:38,246 - INFO - email loaded: (1097231, 12)
+2026-03-24 15:08:38,247 - INFO - Downloading identity from OneDrive...
+2026-03-24 15:08:39,583 - INFO - identity loaded: (286140, 79)
+2026-03-24 15:08:39,669 - INFO - Registered transaction in DuckDB
+2026-03-24 15:08:39,673 - INFO - Registered cards in DuckDB
+2026-03-24 15:08:39,683 - INFO - Registered email in DuckDB
+2026-03-24 15:08:39,708 - INFO - Registered identity in DuckDB
+2026-03-24 15:08:41,784 - INFO - Joined DataFrame shape: (1097231, 36)
+2026-03-24 15:08:41,950 - INFO - Encoded ProductCD
+2026-03-24 15:08:42,091 - INFO - Encoded card4
+2026-03-24 15:08:42,221 - INFO - Encoded card6
+2026-03-24 15:08:42,381 - INFO - Encoded P_emaildomain
+2026-03-24 15:08:42,590 - INFO - Encoded R_emaildomain
+2026-03-24 15:08:42,777 - INFO - Encoded DeviceType
+2026-03-24 15:08:42,973 - INFO - Encoded DeviceInfo
+2026-03-24 15:08:43,117 - INFO - Encoded M1
+2026-03-24 15:08:43,253 - INFO - Encoded M2
+2026-03-24 15:08:43,395 - INFO - Encoded M3
+2026-03-24 15:08:43,582 - INFO - Encoded M4
+2026-03-24 15:08:43,765 - INFO - Encoded M5
+2026-03-24 15:08:43,895 - INFO - Encoded M6
+2026-03-24 15:08:44,055 - INFO - Encoded M7
+2026-03-24 15:08:44,217 - INFO - Encoded M8
+2026-03-24 15:08:44,452 - INFO - Encoded M9
+2026-03-24 15:08:45,372 - INFO - Filled missing numeric values with median
+2026-03-24 15:19:43,134 - ERROR - Error during train-test split or SMOTE: Input y contains NaN.
+2026-03-24 15:19:50,669 - INFO - Pipeline started
+2026-03-24 15:19:50,685 - INFO - Downloading transaction from OneDrive...
+2026-03-24 15:19:59,730 - INFO - transaction loaded: (1097231, 344)
+2026-03-24 15:19:59,737 - INFO - Downloading cards from OneDrive...
+2026-03-24 15:20:01,336 - INFO - cards loaded: (1097231, 9)
+2026-03-24 15:20:01,337 - INFO - Downloading email from OneDrive...
+2026-03-24 15:20:02,668 - INFO - email loaded: (1097231, 12)
+2026-03-24 15:20:02,669 - INFO - Downloading identity from OneDrive...
+2026-03-24 15:20:03,964 - INFO - identity loaded: (286140, 79)
+2026-03-24 15:20:04,259 - INFO - Registered transaction in DuckDB
+2026-03-24 15:20:04,264 - INFO - Registered cards in DuckDB
+2026-03-24 15:20:04,277 - INFO - Registered email in DuckDB
+2026-03-24 15:20:04,308 - INFO - Registered identity in DuckDB
+2026-03-24 15:20:06,597 - INFO - Joined DataFrame shape: (1097231, 36)
+2026-03-24 15:20:06,724 - INFO - Encoded ProductCD
+2026-03-24 15:20:06,831 - INFO - Encoded card4
+2026-03-24 15:20:06,935 - INFO - Encoded card6
+2026-03-24 15:20:07,056 - INFO - Encoded P_emaildomain
+2026-03-24 15:20:07,215 - INFO - Encoded R_emaildomain
+2026-03-24 15:20:07,380 - INFO - Encoded DeviceType
+2026-03-24 15:20:07,581 - INFO - Encoded DeviceInfo
+2026-03-24 15:20:07,721 - INFO - Encoded M1
+2026-03-24 15:20:07,862 - INFO - Encoded M2
+2026-03-24 15:20:08,031 - INFO - Encoded M3
+2026-03-24 15:20:08,242 - INFO - Encoded M4
+2026-03-24 15:20:08,420 - INFO - Encoded M5
+2026-03-24 15:20:08,548 - INFO - Encoded M6
+2026-03-24 15:20:08,721 - INFO - Encoded M7
+2026-03-24 15:20:08,896 - INFO - Encoded M8
+2026-03-24 15:20:09,135 - INFO - Encoded M9
+2026-03-24 15:20:10,098 - INFO - Filled missing numeric values with median
+2026-03-24 15:20:10,161 - INFO - DataFrame shape after dropping missing target: (590540, 36)
+2026-03-24 15:20:10,542 - INFO - Train shape: (472432, 34), Test shape: (118108, 34)
+2026-03-24 15:20:11,943 - INFO - After SMOTE - Train shape: (911804, 34), Target distribution: [455902 455902]
+2026-03-24 20:31:53,044 - INFO - Pipeline started
+2026-03-24 20:31:53,052 - INFO - Downloading transaction from OneDrive...
+2026-03-24 20:32:04,573 - INFO - transaction loaded: (1097231, 344)
+2026-03-24 20:32:04,577 - INFO - Downloading cards from OneDrive...
+2026-03-24 20:32:06,087 - INFO - cards loaded: (1097231, 9)
+2026-03-24 20:32:06,087 - INFO - Downloading email from OneDrive...
+2026-03-24 20:32:07,503 - INFO - email loaded: (1097231, 12)
+2026-03-24 20:32:07,503 - INFO - Downloading identity from OneDrive...
+2026-03-24 20:32:08,782 - INFO - identity loaded: (286140, 79)
+2026-03-24 20:32:08,833 - INFO - Registered transaction in DuckDB
+2026-03-24 20:32:08,837 - INFO - Registered cards in DuckDB
+2026-03-24 20:32:08,844 - INFO - Registered email in DuckDB
+2026-03-24 20:32:08,864 - INFO - Registered identity in DuckDB
+2026-03-24 20:32:10,392 - INFO - Joined DataFrame shape: (1097231, 36)
+2026-03-24 20:32:10,527 - INFO - Encoded ProductCD
+2026-03-24 20:32:10,625 - INFO - Encoded card4
+2026-03-24 20:32:10,730 - INFO - Encoded card6
+2026-03-24 20:32:10,877 - INFO - Encoded P_emaildomain
+2026-03-24 20:32:11,051 - INFO - Encoded R_emaildomain
+2026-03-24 20:32:11,218 - INFO - Encoded DeviceType
+2026-03-24 20:32:11,394 - INFO - Encoded DeviceInfo
+2026-03-24 20:32:11,518 - INFO - Encoded M1
+2026-03-24 20:32:11,640 - INFO - Encoded M2
+2026-03-24 20:32:11,765 - INFO - Encoded M3
+2026-03-24 20:32:11,930 - INFO - Encoded M4
+2026-03-24 20:32:12,091 - INFO - Encoded M5
+2026-03-24 20:32:12,197 - INFO - Encoded M6
+2026-03-24 20:32:12,352 - INFO - Encoded M7
+2026-03-24 20:32:12,516 - INFO - Encoded M8
+2026-03-24 20:32:12,707 - INFO - Encoded M9
+2026-03-24 20:32:13,493 - INFO - Filled missing numeric values with median
+2026-03-24 20:32:13,558 - INFO - DataFrame shape after dropping missing target: (590540, 36)
+2026-03-24 20:32:13,884 - INFO - Train shape: (472432, 34), Test shape: (118108, 34)
+2026-03-24 20:32:15,097 - INFO - After SMOTE - Train shape: (911804, 34), Target distribution: [455902 455902]
+2026-03-24 20:37:12,809 - INFO - XGBoost best params: {'n_estimators': np.float64(289.9896201183945), 'max_depth': np.float64(8.0), 'learning_rate': np.float64(0.3), 'subsample': np.float64(1.0)}
+2026-03-24 21:01:45,480 - INFO - Best LGBM params: {'n_estimators': np.float64(279.3281667809466), 'max_depth': np.float64(8.0), 'learning_rate': np.float64(0.3), 'num_leaves': np.float64(95.83480246150792)}
+2026-03-24 21:05:16,717 - INFO - Ensemble model trained successfully
+2026-03-24 21:05:22,879 - INFO - Ensemble AUC: 0.9493
+2026-03-24 21:05:23,211 - ERROR - Error during visualization: This RandomForestClassifier instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2026-03-24 21:22:48,218 - ERROR - Error during visualization: This RandomForestClassifier instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2026-03-24 21:22:52,241 - ERROR - Error during visualization: This RandomForestClassifier instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2026-03-24 21:26:51,864 - INFO - Evaluation plots generated and saved successfully
