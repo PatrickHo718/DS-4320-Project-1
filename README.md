@@ -28,7 +28,7 @@ This README now documents a Credit Card Fraud Project for DS-4320 that includes 
 ## Problem Definition
 ### General and Specific Problem
 * **General Problem:** As online transactions have become increasingly common, credit card fraudsters have adapted their tactics to exploit vulnerabilities in digital payment systems, costing businesses billions of dollars per year. 
-* **Specific Problem:** Can we predict the probability of fraud in online transactions by analyzing card and payment behavioral patterns to assist bank fraud analysts in prioritizing high-risk transactions for review?
+* **Specific Problem:** Can we predict fraudulent transactions by analyzing card and payment behavioral patterns to assist bank fraud analysts in prioritizing high-risk transactions for review?
 ### Rationale
 The general problem of credit card fraud detection was refined to focus specifically on card and payment behavior because these features, such as card type, billing address, purchase amount, and product category, represent the most direct signals available to a bank at the moment of a transaction. Unlike device or identity features which may not always be captured, card and payment data is consistently present across all transactions, making it a more reliable foundation for a scoring model. This refinement also aligns closely with how bank fraud analysts actually work because they typically review flagged transactions using payment metadata rather than technical device fingerprints.
 ### Motivation
