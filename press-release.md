@@ -11,3 +11,5 @@ This project develops a machine learning pipeline that scores online transaction
 
 ## Chart
 ![Chart](press-release-image.png)
+
+Figure 1 shows the variation in fraud rates across the four major card networks present in the dataset. Discover cards have the highest fraud rate at 4.81%, followed by Mastercard at 3.59%, Visa at 3.27%, and American Express at 2.69%.
