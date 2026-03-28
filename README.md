@@ -59,7 +59,7 @@ Online transaction fraud costs financial institutions billions of dollars annual
 | **Structuring (Smurfing)** | A money laundering tactic where large transactions are broken into smaller amounts to avoid detection by financial monitoring systems |
 | **Feature Engineering** | The process of selecting, extracting, or transforming raw data into meaningful features that improve the performance of ML models |
 
-### Paragraph
+### Domain
 Credit card fraud detection's domain is in financial services, where the goal is to identify illegitimate transactions before they result in financial loss. When a cardholder makes an online purchase, the transaction flows through the merchant's payment processor, the card network that may be Visa or Mastercard, and finally the issuing bank in a matter of seconds. Traditional systems flag transactions using fixed thresholds, but these fail to capture the complicated behavioral patterns that separate legitimate from fraudulent activity, which leads to high false positive rates and false negative rates. Machine learning models trained on historical transaction data address this by learning these patterns automatically. They are evaluated using AUC-ROC, which measures how well a model distinguishes fraud from non-fraud across all decision thresholds. Financial institutions pursuing these solutions must also comply with regulations such as the Bank Secrecy Act (BSA) that govern fraud liability and require that detection decisions remain interpretable to both analysts and regulators.
 
 ### Reading
@@ -78,7 +78,7 @@ Credit card fraud detection's domain is in financial services, where the goal is
 
 ## Data Creation
 
-### Paragraph
+### Data Provenance
 The dataset used in this project is the IEEE-CIS Fraud Detection dataset, which is originally published as part of a Kaggle competition hosted by the IEEE Computational Intelligence Society. The data was accessed and downloaded from Kaggle (https://www.kaggle.com/competitions/ieee-fraud-detection) using a registered Kaggle account. The dataset is provided in four CSV files: train_transaction.csv, train_identity.csv, test_transaction.csv, and test_identity.csv, which were downloaded as a compressed zip archive and extracted locally before being uploaded to a UVA OneDrive folder for storage and access. The transaction files contain features related to payment behavior including card information, transaction amount, product category, and a suite of anonymized engineered features (V1-V339), while the identity files contain device and network-related features associated with a subset of transactions.
 
 The two file types are linked by TransactionID as the primary key, with the identity tables representing a subset of transactions for which identity information was available. The target variable isFraud is provided only in the training set, as the test set was originally intended for Kaggle competition submissions. For the purposes of this project, analysis is conducted primarily on the training sets where ground truth labels are available. The raw files were reorganized into four logical relational tables, including transactions, cards, email, and identity, to better reflect the relational structure of the data and support SQL-based querying via DuckDB.
