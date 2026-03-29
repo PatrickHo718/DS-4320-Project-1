@@ -116,7 +116,7 @@ Class imbalance is addressed directly through SMOTE (Synthetic Minority Oversamp
 
 ### Schema
 
-![New](ERD-Schema.png)
+![New](images/ERD-Schema.png)
 
 ### Data
 
