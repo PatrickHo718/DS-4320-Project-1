@@ -12,7 +12,7 @@ This README now documents a Credit Card Fraud Project for DS-4320 that includes 
 
 ### Name - Mu Patrick Ho
 ### NetID - bqu3tr
-### DOI - [url](url)
+### DOI - [10.5281/zenodo.19337555](https://doi.org/10.5281/zenodo.19337555)
 ### Press Release
 [**A Machine Learning Approach to Scoring Online Transaction Risk**](https://github.com/PatrickHo718/DS-4320-Project-1/blob/main/press-release.md)
 ### Data - [link to data](https://myuva-my.sharepoint.com/:f:/g/personal/bqu3tr_virginia_edu/IgBAbNXHsneGQokG4ZUMr-LjATbpy9pAfvE82uTdzAjVNNg?e=WvtVeb)
