@@ -65,11 +65,11 @@ Credit card fraud detection's domain is in financial services, where the goal is
 ### Reading
 | Title | Brief Description | Link |
 |---|---|---|
-| Using AI to Secure The Future of Payments | Shows emerging trends in the payment ecosystem and highlights how AI-driven solutions are critical for securing diverse payment rails | [Link](https://drive.google.com/file/d/1D_ddYndCPKabJBlFiNC0xDuCawfEY5Zh/view?usp=drive_link) |
-| Credit Card Fraud Detection using Machine Learning Algorithm | Proposes cardholder clustering and a sliding window strategy to analyze behavioral patterns and mitigate the challenge of concept drift | [Link](https://drive.google.com/file/d/186PeYaHyIRb8bLsyRNeJjB3rhZ6_CPRT/view?usp=drive_link) |
-| CREDIT CARD FRAUD DETECTION USING MACHINE LEARNING: A STUDY | Suggests  Hidden Markov Models and Neural Networks to improve the detection of diverse credit card fraud types | [Link](https://drive.google.com/file/d/1EC0Y52bF0gWBwL8-Je3TzE5pjFMhd8iP/view?usp=drive_link) |
-| What is anti-money laundering? A complete guide to AML compliance. | Covers AML compliance to stress the importance of KYC/CDD frameworks and the integration of AI to detect financial threats | [Link](https://drive.google.com/file/d/1DYNGWO4N-l07rEz2Vwi4kL-27heELBPc/view?usp=drive_link) |
-| Fraud Detection in Banking Data by Machine Learning Techniques | Uses Bayesian optimization for hyperparameter tuning and ensemble learning for highly imbalanced banking datasets | [Link](https://drive.google.com/file/d/1eamB_CzPW37evvTxPhOTjPR3JB-fs732/view?usp=drive_link) |
+| Using AI to Secure The Future of Payments | Shows emerging trends in the payment ecosystem and highlights how AI-driven solutions are critical for securing diverse payment rails | [Link](https://myuva-my.sharepoint.com/:b:/g/personal/bqu3tr_virginia_edu/IQAjniH6OSHwTpIV_hf8w9alATdu2qfmw1w1eXnHFv8Fohk?e=0TaV7j) |
+| Credit Card Fraud Detection using Machine Learning Algorithm | Proposes cardholder clustering and a sliding window strategy to analyze behavioral patterns and mitigate the challenge of concept drift | [Link](https://myuva-my.sharepoint.com/:b:/g/personal/bqu3tr_virginia_edu/IQAIQj2_x1pMSKEH_9O_PQOWATBoDKTDBKsE_Om7UdaxwG4?e=cbKNui) |
+| CREDIT CARD FRAUD DETECTION USING MACHINE LEARNING: A STUDY | Suggests  Hidden Markov Models and Neural Networks to improve the detection of diverse credit card fraud types | [Link](https://myuva-my.sharepoint.com/:b:/g/personal/bqu3tr_virginia_edu/IQBY0oWDbSxIRa7ZEulJ2WouAc_8caLn7A8CJNksJfZoOTk?e=na7II8) |
+| What is anti-money laundering? A complete guide to AML compliance. | Covers AML compliance to stress the importance of KYC/CDD frameworks and the integration of AI to detect financial threats | [Link](https://myuva-my.sharepoint.com/:b:/g/personal/bqu3tr_virginia_edu/IQAtB15-uKYLTbhouccZB3TaAXgbybNoJhop4FHg6JDmNVo?e=CySDzg) |
+| Fraud Detection in Banking Data by Machine Learning Techniques | Uses Bayesian optimization for hyperparameter tuning and ensemble learning for highly imbalanced banking datasets | [Link](https://myuva-my.sharepoint.com/:b:/g/personal/bqu3tr_virginia_edu/IQCknMW4_UvER7fNN7tBwVd5AcpzwTYyK6B815g4i7rLV0I?e=07EZPk) |
 
 ---
 <br>
